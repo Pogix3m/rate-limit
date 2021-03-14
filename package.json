@@ -1,14 +1,29 @@
 {
-    "name": "rate-limit",
-    "version": "1.0.0",
-    "description": "",
-    "main": "dist/rate-limit.types.js",
+    "name": "@pogix3m/rate-limit",
+    "version": "1.0.1",
+    "description": "Used to limit call of function",
+    "main": "dist/index.js",
     "scripts": {
         "build": "tsc",
         "prepublish": "tsc"
     },
-    "author": "Harold Niones",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pogix3m/rate-limit.git"
+    },
+    "keywords": [
+        "rate",
+        "limit"
+    ],
+    "author": {
+        "name": "Harold Niones",
+        "email": "harold_x3m@yahoo.com"
+    },
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Pogix3m/rate-limit/issues"
+    },
+    "homepage": "https://github.com/Pogix3m/rate-limit:#readme",
     "devDependencies": {
         "typescript": "^4.1.3"
     }
