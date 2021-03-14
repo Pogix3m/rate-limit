@@ -1,0 +1,15 @@
+{
+    "name": "rate-limit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/rate-limit.types.js",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "tsc"
+    },
+    "author": "Harold Niones",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    }
+}
