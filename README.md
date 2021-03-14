@@ -30,7 +30,7 @@ import RateLimit from "@pogix3m/rate-limit";
 })();
 
 /*
-RESULT: every after 2 of rate.check() it delays next call for 5sec
+RESULT: every after 2 call of rate.check() it delays next call for 5sec
 2021-03-14T05:54:48.838Z : a
 2021-03-14T05:54:48.841Z : b
 2021-03-14T05:54:53.828Z : c
