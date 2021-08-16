@@ -11,10 +11,10 @@ $ npm install --save @pogix3m/rate-limit
 ## Usage
 
 ```javascript
-import RateLimit from "@pogix3m/rate-limit";
+const RateLimit = require("@pogix3m/rate-limit").default;
 
 (async () => {
-    const rate: RateLimit = new RateLimit({ limit: 2, intervalMS: 5000 });
+    const rate = new RateLimit({ limit: 2, intervalMS: 5000 });
 
     await Promise.all([
         rate.Check().then(() => console.log(new Date().toISOString(), ": a")),
