@@ -1,6 +1,6 @@
 {
     "name": "@pogix3m/rate-limit",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "Used to limit call of function",
     "main": "dist/index.js",
     "scripts": {
@@ -19,12 +19,16 @@
         "name": "Harold Niones",
         "email": "harold_x3m@yahoo.com"
     },
+    "engines": {
+        "node": "^18.0.0",
+        "npm": "^8.0.0"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Pogix3m/rate-limit/issues"
     },
     "homepage": "https://github.com/Pogix3m/rate-limit#readme",
     "devDependencies": {
-        "typescript": "^4.1.3"
+        "typescript": "4.7.3"
     }
 }
