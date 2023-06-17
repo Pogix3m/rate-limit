@@ -1,6 +1,6 @@
 {
     "name": "@pogix3m/rate-limit",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Used to limit call of function",
     "main": "dist/index.js",
     "scripts": {
@@ -20,8 +20,8 @@
         "email": "harold_x3m@yahoo.com"
     },
     "engines": {
-        "node": "^18.0.0",
-        "npm": "^8.0.0"
+        "node": ">=18.0.0",
+        "npm": ">=8.0.0"
     },
     "license": "MIT",
     "bugs": {
